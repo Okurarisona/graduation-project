@@ -1,0 +1,202 @@
+<?xml version="1.0" standalone="no"?>
+<mlt LC_NUMERIC="C" version="7.7.0" title="Shotcut version 22.04.25" producer="main_bin">
+  <profile description="PAL 4:3 DV or DVD" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <chain id="chain0" in="00:01:48.367" out="00:01:56.467">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">e:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">1</property>
+    <property name="creation_time">2021-06-03T16:13:06</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+  </chain>
+  <playlist id="main_bin" title="Shotcut version 22.04.25">
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <property name="xml_retain">1</property>
+    <entry producer="chain0" in="00:01:48.367" out="00:01:56.467"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:00:18.400">
+    <property name="length">00:00:18.433</property>
+    <property name="eof">pause</property>
+    <property name="resource">0</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="mlt_image_format">rgba</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:00:18.400"/>
+  </playlist>
+  <chain id="chain1" out="00:02:00.800">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">e:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-06-03T16:13:06</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain2" out="00:02:00.800">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">E:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+    <property name="xml">was here</property>
+  </chain>
+  <chain id="chain3" out="00:02:00.800">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">e:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-06-03T16:13:06</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+    <filter id="filter0" in="00:01:24.500" out="00:01:25.933">
+      <property name="argument">灯光</property>
+      <property name="geometry">1192 210 387 222 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain4" out="00:02:00.800">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">e:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-06-03T16:13:06</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+    <filter id="filter1" in="00:01:42.300" out="00:01:44.233">
+      <property name="argument">云台</property>
+      <property name="geometry">1430 755 489 323 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <chain id="chain5" out="00:02:00.800">
+    <property name="length">00:02:00.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">e:/文件区/毕设相关/昕凯的毕设/素材/水下机器人毕设视频.mp4</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="shotcut:hash">6e0d7aba1aa28dad1f1cd498d4660adc</property>
+    <property name="ignore_points">0</property>
+    <property name="creation_time">2021-06-03T16:13:06</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">水下机器人毕设视频.mp4</property>
+    <filter id="filter2" in="00:01:48.367" out="00:01:56.467">
+      <property name="argument">变聚焦</property>
+      <property name="geometry">-1 -4 487 265 1</property>
+      <property name="family">Verdana</property>
+      <property name="size">1080</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#000000</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#aa000000</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">bottom</property>
+      <property name="outline">3</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+      <property name="shotcut:usePointSize">0</property>
+      <property name="shotcut:animIn">00:00:00.000</property>
+      <property name="shotcut:animOut">00:00:00.000</property>
+    </filter>
+  </chain>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="chain1" in="00:00:03.000" out="00:00:08.200"/>
+    <entry producer="chain2" in="00:00:47.567" out="00:00:49.167"/>
+    <entry producer="chain3" in="00:01:24.500" out="00:01:25.933"/>
+    <entry producer="chain4" in="00:01:42.300" out="00:01:44.233"/>
+    <entry producer="chain5" in="00:01:48.367" out="00:01:56.467"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 22.04.25" in="00:00:00.000" out="00:00:18.400">
+    <property name="shotcut">1</property>
+    <property name="shotcut:projectAudioChannels">2</property>
+    <property name="shotcut:projectFolder">1</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.1</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="threads">0</property>
+      <property name="disable">1</property>
+    </transition>
+  </tractor>
+</mlt>
